@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page 1</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+    box-sizing: border-box;}
+        .con{
+            /* max-width: 1200px; */
+        margin: auto;
+        display: flex;
+    }
+        h1,p,button{
+            text-align: center;
+            margin: 35px;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        input,button{border-radius: 5px; margin: 25px auto;padding: 16px 32px; font-size: 1rem;}
+        button{ margin: 0px 7px ; }
+
+
+        /* button{
+            padding: 16px 32px;
+        } */
+        #Signup{
+            background: #ffbe25;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+        .main{
+            margin: 100px auto;
+           width: 70%;
+        }
+        input{
+            display: block;
+        }
+        body{
+            background: #f9e864;
+        }
+.button{
+    display: flex;
+    justify-content: center;
+}
+       .bg{
+        background: url(../img/sign1.jpg);
+        background-size: cover;
+        width: 30%;
+        height: 100vh;
+        background-repeat: no-repeat;
+
+       }
+       @media screen and (max-width:1000px) {
+        .bg{
+            display: none;
+        }
+        
+       }
+       
+        
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="main">
+            <h1>Create your Account !</h1>
+            <p>or Use Email For Registration</p>
+            <form action="#">
+                <input type="text" name="fullname" id="fullname" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="password" name="password" id="page" placeholder="Password">
+                <div class="button"><div class="btn"><button id="Signup">Sign up</button>
+                    <button id="Login">Login</button></div></div>
+                </form>
+        </div>
+        <div class="bg">
+
+        </div>
+    </div>
+</body>
+
+</html>
